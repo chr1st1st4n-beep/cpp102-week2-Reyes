@@ -1,0 +1,24 @@
+START
+
+Open the project folder.
+
+IF Git is not initialized THEN
+    Initialize Git repository.
+END IF
+
+Add all project files.
+
+Commit the changes with a commit message.
+
+Create a repository on GitHub.
+
+Copy the GitHub repository URL.
+
+Connect the local repository to the GitHub repository.
+
+Push the local files to the GitHub repository.
+
+Display "Project uploaded successfully."
+
+END
+
