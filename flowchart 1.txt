@@ -1,0 +1,10 @@
+flowchart TD
+    A[Start] --> B[Input Data]
+    B --> C[Process Data]
+    C --> D{Condition?}
+    D -- Yes --> E[Action A]
+    D -- No --> F[Action B]
+    E --> G[Output Result]
+    F --> G
+    G --> H[End]
+    
