@@ -1,0 +1,18 @@
+STEP 1: Start.
+STEP 2: Enter Your First Num1:
+STEP 3: Enter Your Second Num2:
+STEP 4: Compute Sum = Num1 + Num2:
+STEP 5: Display sum.
+STEP 6: End.
+
+Start.
+Input three numbers: A, B, and C.
+Compare A and B.
+If A is greater than or equal to B, compare A and C.
+If A is also greater than or equal to C, then A is the largest.
+Otherwise, C is the largest.
+If A is not greater than or equal to B, compare B and C.
+If B is greater than or equal to C, then B is the largest.
+Otherwise, C is the largest.
+Display the largest number.
+End.
