@@ -1,0 +1,18 @@
+flowchart TD
+    A[Start] --> B[Input number 1]
+    B --> C[Input number 2]
+    C --> D[Input operator + - * /]
+
+    D --> E{Operator?}
+
+    E -- + --> F[Add numbers]
+    E -- - --> G[Subtract numbers]
+    E -- * --> H[Multiply numbers]
+    E -- / --> I[Divide numbers]
+
+    F --> J[Display result]
+    G --> J
+    H --> J
+    I --> J
+
+    J --> K[End]
